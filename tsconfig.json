@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "outDir": "./built",
+        "allowJs": true,
+        "target": "es5",
+        "types": ["node"], // Fix for "cannot redeclare block-scoped variable 'fs'
+        "moduleResolution": "node" // Fix for "cannot redeclare block-scoped variable 'fs'
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
